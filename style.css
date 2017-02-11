@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(images/bg.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	width: 992px;
+	margin: 0 auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 21px;
+	color: #a08f9c;
+	position: relative;
+}
+#top {
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	height: 127px;
+}
+#nav {
+	height: 59px;
+}
+	/* // nav menu */		
+ul#menu {
+	height:118px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	padding-top:0px;
+	width: 992px;
+}
+ul#menu li {
+float:left;
+}
+ul#menu li a {
+background:url(images/button.jpg) no-repeat scroll top left;
+display:block;
+height:59px;
+position:relative;
+}
+ul#menu li a span {
+background:url(images/button.gif) no-repeat scroll bottom left;
+display:block;
+position:absolute;
+top:0;
+left:0;
+height:100%;
+width:100%;
+z-index:100;
+}
+ul#menu li a.home {
+	width:157px;
+}
+ul#menu li a.about {
+	width:141px;
+	background-position:-157px 0px;
+}
+ul#menu li a.whatwedo {
+	width:198px;
+	background-position:-298px 0px;
+}
+ul#menu li a.album {
+	width:143px;
+	background-position:-496px 0px;
+}
+ul#menu li a.wedding {
+	width:163px;
+	background-position:-639px 0px;
+}
+ul#menu li a.contact {
+	width:190px;
+	background-position:-802px 0px;
+}
+ul#menu li a.home span {
+background-position:0px -59px;
+}
+ul#menu li a.about span {
+background-position:-157px -59px;
+}
+ul#menu li a.whatwedo span {
+background-position:-298px -59px;
+}
+ul#menu li a.album span {
+background-position:-496px -59px;
+}
+ul#menu li a.wedding span {
+background-position:-639px -59px;
+}
+ul#menu li a.contact span {
+background-position:-802px -59px;
+}
+	/* slider */
+
+		#slider ul, #slider li{ 
+			margin:0;
+			padding:0;
+			list-style:none;
+			}	
+		#slider, #slider li{ 
+			height:389px;
+			width:992px;
+			overflow:hidden;
+			}	
+		#slider{
+	margin: 0;
+			}	
+		#prevBtn, #nextBtn{ 
+			display:block;
+			width:30px;
+			height:77px;
+			position:absolute;
+			left:-15px;
+			top:350px;
+			}	
+		#nextBtn{ 
+			left:980px;
+			}														
+		#prevBtn a, #nextBtn a{  
+			display:block;
+			width:30px;
+			height:77px;
+			background:url(images/btn_prev.png) no-repeat 0 0;	
+			}	
+		#nextBtn a{ 
+			background:url(images/btn_next.png) no-repeat 0 0;	
+			}	
+#header {
+	height: 389px;
+}
+#content {
+	padding: 15px 0;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#left {
+	float: left;
+	width: 630px;
+}
+#left2 {
+	width: 990px;
+}
+#right {
+	float: right;
+	width: 275px;
+}
+.leftimg {
+	float: left;
+	padding-right: 10px;
+	display: block;
+}
+.readmoreright {
+	font-weight: bold;
+	color: #da1e2f;
+	float: right;
+	text-decoration: underline;
+}
+.date {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#footer {
+	padding: 15px;
+	text-align: center;
+	background-color: #282828;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #7d6276;
+}
+#bottomcontent {
+	width: 1000px;
+	margin: 0 auto;
+	height: 30px;
+}
+.bottomtitle {
+	font-size: 5px;
+	color: #FFFFFF;
+}
+#bottom {
+	background-color: #282828;
+	padding: 5px 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 19px;
+	color: #20131d;
+}
+#b1 {
+	float: left;
+	width: 390px;
+	padding-right: 50px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e14b59;
+	height: 200px;
+}
+#b3 {
+	float: right;
+	width: 230px;
+	padding-left: 30px;
+}
+#b2 {
+	float: left;
+	width: 200px;
+	margin-left: 40px;
+	padding-right: 30px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e14b59;
+	height: 200px;
+}
+.whitetext {
+	color: #FFFFFF;
+}
+#contact {
+	color: #696969;
+	padding: 5px;
+}
+#contact input {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	padding: 6px;
+	border: 1px solid #000000;
+	width: 230px;
+	margin: 5px 0 5px 0;
+}
+#contact label {
+	float: left;
+	width: 90px;
+	display: block;
+	padding: 3px;
+	margin: 3px 0 3px 0;
+	clear: both;
+	color: #FFFFFF;
+}
+#contact textarea {
+	border: 1px solid #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	padding: 6px;
+	width: 230px;
+	margin: 5px 0 5px;
+}
